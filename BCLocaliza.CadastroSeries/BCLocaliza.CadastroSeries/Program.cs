@@ -6,7 +6,22 @@ namespace BCLocaliza_CadastroSeries
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
+        }
+
+        private static string ObterOpcUsuario()
+        {
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
