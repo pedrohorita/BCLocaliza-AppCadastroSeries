@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BCLocaliza.CadastroSeries.Classes
+namespace BCLocaliza.CadastroSeries
 {
     public class SerieRepositorio : IRepositorio<Serie>
     {

@@ -23,15 +23,21 @@ namespace BCLocaliza.CadastroSeries
         }
         public override string ToString()
         {
-            string retorno = $@"Gênero: {this.Genero + Environment.NewLine}
-                                Titulo: {this.Titulo + Environment.NewLine}
-                                Descrição: {this.Descricao + Environment.NewLine}
-                                Ano de Inínio: {this.Ano}";
+            string retorno = $@"
+                Gênero: {this.Genero}
+                Titulo: {this.Titulo}
+                Descrição: {this.Descricao}
+                Ano de Inínio: {this.Ano}
+                Excluído: {this.Excluido}";
             return retorno;
         }
         public string RetornaTitulo()
         {
             return this.Titulo;
+        }
+        public bool RetornaExcluido()
+        {
+            return this.Excluido;
         }
         public int RetornaId()
         {
